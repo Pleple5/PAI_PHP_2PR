@@ -57,7 +57,7 @@
         echo "<br>";
         for($1=0;$1<301;$i++)
         {
-            ifE(iiset($liczby[$i])) echo $liczby[$i]." ";
+            if(iiset($liczby[$i])) echo $liczby[$i]." ";
         }
     ?>
 </body>
